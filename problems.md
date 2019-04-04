@@ -4,6 +4,7 @@
 2. [Array Elements Product](#problem-2-hard) [Hard] (asked by Uber)
 3. [Binary Tree Serialization](#problem-3-medium) [Medium] (asked by Google)
 4. [First Missing Positive](#problem-4-hard) [Hard] (asked by Stripe)
+5. [Functional List Implementation](#problem-5-medium) [Medium] (asked by Jane Street)
 
 ## Problem #1 [Easy]
 
@@ -64,3 +65,21 @@ For example, the input `[3, 4, -1, 1]` should give 2. The input `[1, 2, 0]` shou
 You can modify the input array in-place.
 
 [Solution](./solutions/problem0004.py)
+
+
+## Problem #5 [Medium]
+
+*This problem was asked by Jane Street.*
+
+`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns 3, and `cdr(cons(3, 4))` returns 4.
+
+Given this implementation of `cons`:
+
+    def cons(a, b):
+        def pair(f):
+            return f(a, b)
+        return pair
+
+Implement `car` and `cdr`.
+
+[Solution](./solutions/problem0005.py)
