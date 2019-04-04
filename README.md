@@ -2,4 +2,5 @@
 
 My solutions to the problems sent by [Daily Coding Problem](https://www.dailycodingproblem.com/).
 
-[Problems](./problems.md)
+- [Problems](./problems.md)
+- [Lessons](./lessons.md)
