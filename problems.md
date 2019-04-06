@@ -6,6 +6,7 @@
 4. [First Missing Positive](#problem-4-hard) [Hard] (asked by Stripe)
 5. [Functional List Implementation](#problem-5-medium) [Medium] (asked by Jane Street)
 6. [XOR Linked List](#problem-6-hard) [Hard] (asked by Google)
+7. [Decoding Ways Number](#problem-7-medium) [Medium] (asked by Facebook)
 
 ## Problem #1 [Easy]
 
@@ -95,3 +96,16 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
 
 [Solution](./solutions/problem0006.c)
+
+
+## Problem #7 [Medium]
+
+*This problem was asked by Facebook.*
+
+Given the mapping `a = 1`, `b = 2`, ... `z = 26`, and an encoded message, count the number of ways it can be decoded.
+
+For example, the message `'111'` would give 3, since it could be decoded as `'aaa'`, `'ka'`, and `'ak'`.
+
+You can assume that the messages are decodable. For example, `'001'` is not allowed.
+
+[Solution](./solutions/problem0007.py)
