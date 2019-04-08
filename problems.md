@@ -8,6 +8,7 @@
 6. [XOR Linked List](#problem-6-hard) [Hard] (asked by Google)
 7. [Decoding Ways Number](#problem-7-medium) [Medium] (asked by Facebook)
 8. [Count Unival Subtrees](#problem-8-easy) [Easy] (asked by Google)
+9. [Largest Sum of Non-adjacent Numbers](#problem-9-hard) [Hard] (asked by Airbnb)
 
 ## Problem #1 [Easy]
 
@@ -131,3 +132,16 @@ For example, the following tree has 5 unival subtrees:
     1   1
 
 [Solution](./solutions/problem0008.py)
+
+
+## Problem #9 [Hard]
+
+*This problem was asked by Airbnb.*
+
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+
+For example, `[2, 4, 6, 2, 5]` should return 13, since we pick 2, 6, and 5. `[5, 1, 1, 5]` should return 10, since we pick 5 and 5.
+
+Follow-up: Can you do this in `O(N)` time and constant space?
+
+[Solution](./solutions/problem0009.py)
