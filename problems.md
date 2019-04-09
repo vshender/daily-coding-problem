@@ -9,6 +9,7 @@
 7. [Decoding Ways Number](#problem-7-medium) [Medium] (asked by Facebook)
 8. [Count Unival Subtrees](#problem-8-easy) [Easy] (asked by Google)
 9. [Largest Sum of Non-adjacent Numbers](#problem-9-hard) [Hard] (asked by Airbnb)
+10. [Job Scheduler](#problem-10-medium) [Medium] (asked by Apple)
 
 ## Problem #1 [Easy]
 
@@ -145,3 +146,12 @@ For example, `[2, 4, 6, 2, 5]` should return 13, since we pick 2, 6, and 5. `[5,
 Follow-up: Can you do this in `O(N)` time and constant space?
 
 [Solution](./solutions/problem0009.py)
+
+
+## Problem #10 [Medium]
+
+*This problem was asked by Apple.*
+
+Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+
+[Solution](./solutions/problem0010.py)
