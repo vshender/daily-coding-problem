@@ -10,6 +10,8 @@
 8. [Count Unival Subtrees](#problem-8-easy) [Easy] (asked by Google)
 9. [Largest Sum of Non-adjacent Numbers](#problem-9-hard) [Hard] (asked by Airbnb)
 10. [Job Scheduler](#problem-10-medium) [Medium] (asked by Apple)
+11. [Autocomplete System](#problem-11-medium) [Medium] (asked by Twitter)
+
 
 ## Problem #1 [Easy]
 
@@ -155,3 +157,16 @@ Follow-up: Can you do this in `O(N)` time and constant space?
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
 [Solution](./solutions/problem0010.py)
+
+
+## Problem #11 [Medium]
+
+*This problem was asked by Twitter.*
+
+Implement an autocomplete system. That is, given a query string `s` and a set of all possible query strings, return all strings in the set that have `s` as a prefix.
+
+For example, given the query string `de` and the set of strings `[dog, deer, deal]`, return `[deer, deal]`.
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+[Solution](./solutions/problem0011.py)
