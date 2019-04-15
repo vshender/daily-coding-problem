@@ -12,6 +12,7 @@
 10. [Job Scheduler](#problem-10-medium) [Medium] (asked by Apple)
 11. [Autocomplete System](#problem-11-medium) [Medium] (asked by Twitter)
 12. [Climb the Staircase](#problem-12-hard) [Hard] (asked by Amazon)
+13. [Longest Substring](#problem-13-hard) [Hard] (asked by Amazon)
 
 
 ## Problem #1 [Easy]
@@ -190,3 +191,14 @@ For example, if `N` is 4, then there are 5 unique ways:
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers `X`? For example, if `X = {1, 3, 5}`, you could climb 1, 3, or 5 steps at a time.
 
 [Solution](./solutions/problem0012.py)
+
+
+## Problem #13 [Hard]
+
+*This problem was asked by Amazon.*
+
+Given an integer `k` and a string `s`, find the length of the longest substring that contains at most `k` distinct characters.
+
+For example, given `s = "abcba"` and `k = 2`, the longest substring with `k` distinct characters is `"bcb"`.
+
+[Solution](./solutions/problem0013.py)
