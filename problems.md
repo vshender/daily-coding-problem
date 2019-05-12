@@ -13,6 +13,7 @@
 11. [Autocomplete System](#problem-11-medium) [Medium] (asked by Twitter)
 12. [Climb the Staircase](#problem-12-hard) [Hard] (asked by Amazon)
 13. [Longest Substring](#problem-13-hard) [Hard] (asked by Amazon)
+14. [Estimate Pi](#problem-14-medium) [Medium] (asked by Google)
 
 
 ## Problem #1 [Easy]
@@ -202,3 +203,14 @@ Given an integer `k` and a string `s`, find the length of the longest substring 
 For example, given `s = "abcba"` and `k = 2`, the longest substring with `k` distinct characters is `"bcb"`.
 
 [Solution](./solutions/problem0013.py)
+
+
+## Problem #14 [Medium]
+
+*This problem was asked by Google.*
+
+The area of a circle is defined as `pi * r^2`. Estimate `pi` to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is `x^2 + y^2 = r^2`.
+
+[Solution](./solutions/problem0014.py)
