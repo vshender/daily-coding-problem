@@ -15,6 +15,7 @@
 13. [Longest Substring](#problem-13-hard) [Hard] (asked by Amazon)
 14. [Estimate Pi](#problem-14-medium) [Medium] (asked by Google)
 15. [Random Element from a Stream](#problem-15-medium) [Medium] (asked by Facebook)
+16. [Order Log](#problem-16-easy) [Easy] (asked by Twitter)
 
 
 ## Problem #1 [Easy]
@@ -224,3 +225,17 @@ Hint: The basic equation of a circle is `x^2 + y^2 = r^2`.
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
 [Solution](./solutions/problem0015.py)
+
+
+## Problem #16 [Easy]
+
+*This problem was asked by Twitter.*
+
+You run an e-commerce website and want to record the last `N` order ids in a log. Implement a data structure to accomplish this, with the following API:
+
+- `record(order_id)`: adds the `order_id` to the log;
+- `get_last(i)`: gets the `i`th last element from the log. `i` is guaranteed to be smaller than or equal to `N`.
+
+You should be as efficient with time and space as possible.
+
+[Solution](./solutions/problem0016.py)
