@@ -17,6 +17,7 @@
 15. [Random Element from a Stream](#problem-15-medium) [Medium] (asked by Facebook)
 16. [Order Log](#problem-16-easy) [Easy] (asked by Twitter)
 17. [Longest Absolute Path](#problem-17-hard) [Hard] (asked by Google)
+18. [Maximum Subarray Values](#problem-18-hard) [Hard] (asked by Google)
 
 
 ## Problem #1 [Easy]
@@ -288,3 +289,20 @@ Note:
 - The name of a directory or sub-directory will not contain a period.
 
 [Solution](./solutions/problem0017.py)
+
+
+## Problem #18 [Hard]
+
+*This problem was asked by Google.*
+
+Given an array of integers and a number `k`, where `1 <= k <= length` of the array, compute the maximum values of each subarray of length `k`.
+
+For example, given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[10, 7, 8, 8]`, since:
+- `10 = max(10, 5, 2)`
+- `7 = max(5, 2, 7)`
+- `8 = max(2, 7, 8)`
+- `8 = max(7, 8, 7)`
+
+Do this in `O(n)` time and `O(k)` space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+
+[Solution](./solutions/problem0018.py)
