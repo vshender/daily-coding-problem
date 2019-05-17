@@ -18,6 +18,7 @@
 16. [Order Log](#problem-16-easy) [Easy] (asked by Twitter)
 17. [Longest Absolute Path](#problem-17-hard) [Hard] (asked by Google)
 18. [Maximum Subarray Values](#problem-18-hard) [Hard] (asked by Google)
+19. [Minimize Building Cost](#problem-19-medium) [Medium] (asked by Facebook)
 
 
 ## Problem #1 [Easy]
@@ -306,3 +307,14 @@ For example, given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[1
 Do this in `O(n)` time and `O(k)` space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
 [Solution](./solutions/problem0018.py)
+
+
+## Problem #19 [Medium]
+
+*This problem was asked by Facebook.*
+
+A builder is looking to build a row of `N` houses that can be of `K` different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+
+Given an `N` by `K` matrix where the `n`th row and `k`th column represents the cost to build the `n`th house with `k`th color, return the minimum cost which achieves this goal.
+
+[Solution](./solutions/problem0019.py)
