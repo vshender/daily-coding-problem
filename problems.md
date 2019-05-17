@@ -19,6 +19,7 @@
 17. [Longest Absolute Path](#problem-17-hard) [Hard] (asked by Google)
 18. [Maximum Subarray Values](#problem-18-hard) [Hard] (asked by Google)
 19. [Minimize Building Cost](#problem-19-medium) [Medium] (asked by Facebook)
+20. [Linked Lists Intersection](#problem-20-easy) [Easy] (asked by Google)
 
 
 ## Problem #1 [Easy]
@@ -318,3 +319,18 @@ A builder is looking to build a row of `N` houses that can be of `K` different c
 Given an `N` by `K` matrix where the `n`th row and `k`th column represents the cost to build the `n`th house with `k`th color, return the minimum cost which achieves this goal.
 
 [Solution](./solutions/problem0019.py)
+
+
+## Problem #20 [Easy]
+
+*This problem was asked by Google.*
+
+Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
+
+For example, given `A = 3 -> 7 -> 8 -> 10` and `B = 99 -> 1 -> 8 -> 10`, return the node with value `8`.
+
+In this example, assume nodes with the same value are the exact same node objects.
+
+Do this in `O(M + N)` time (where `M` and `N` are the lengths of the lists) and constant space.
+
+[Solution](./solutions/problem0020.py)
