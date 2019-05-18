@@ -20,6 +20,7 @@
 18. [Maximum Subarray Values](#problem-18-hard) [Hard] (asked by Google)
 19. [Minimize Building Cost](#problem-19-medium) [Medium] (asked by Facebook)
 20. [Linked Lists Intersection](#problem-20-easy) [Easy] (asked by Google)
+21. [Minimum Classrooms Required](#problem-21-easy) [Easy] (asked by Snapchat)
 
 
 ## Problem #1 [Easy]
@@ -334,3 +335,14 @@ In this example, assume nodes with the same value are the exact same node object
 Do this in `O(M + N)` time (where `M` and `N` are the lengths of the lists) and constant space.
 
 [Solution](./solutions/problem0020.py)
+
+
+## Problem #21 [Easy]
+
+*This problem was asked by Snapchat.*
+
+Given an array of time intervals `(start, end)` for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given `[(30, 75), (0, 50), (60, 150)]`, you should return 2.
+
+[Solution](./solutions/problem0021.py)
